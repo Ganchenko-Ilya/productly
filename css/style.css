@@ -1,1 +1,113 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-logo a {
+  display: inline-block;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 17px;
+  margin-bottom: 30px;
+}
+
+.nav-list ul {
+  display: flex;
+  width: 304px;
+  justify-content: space-between;
+}
+.nav-list ul li {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: #2F281E;
+}
+.nav-list ul a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-button {
+  width: 105px;
+  height: 46px;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: #FF9900;
+  color: #fff;
+  margin-left: 14px;
+  border: none;
+}
+
+.sign-in {
+  border: #BCD0E5 solid 1px;
+  color: #173A56;
+}
+
+.header-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-heading__text h1 {
+  font-size: 44px;
+  font-family: "Poppins";
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+.header-heading__text p {
+  font-family: "Poppins";
+  line-height: 28px;
+  color: #544837;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 487px;
+  margin-bottom: 56px;
+}
+.header-heading__text .header-heading-button {
+  width: 174px;
+  height: 53px;
+  background-color: #FF9900;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.header-heading__text .text__button {
+  display: flex;
+  width: 389px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-heading__text .text__button a {
+  display: inline-block;
+  color: #FF9900;
+  font-family: "Poppinos";
+  font-weight: 600;
+  font-size: 16px;
+}
+.header-heading__text .text__button a::before {
+  content: "";
+  background-image: url(../image/agle.svg);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}/*# sourceMappingURL=style.css.map */
